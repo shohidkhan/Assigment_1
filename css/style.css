@@ -1,5 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
 
 }
 
@@ -46,4 +48,128 @@ h1 {
     border-radius: 35px;
     margin-top: 10px;
     display: inline-block;
+}
+
+
+
+
+#about {
+    padding: 75px 0;
+    background-image: url(../images/shapes/7.png);
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.about_half_width {
+    width: 50%;
+    padding: 0 5%;
+}
+
+.about_half_width img {
+    width: 330px;
+
+}
+
+.about_half_width h2 {
+    font-size: 40px;
+    color: #707070;
+}
+
+.about_half_width p {
+    font-size: 20px;
+    color: #828282;
+}
+
+.about_half_width a {
+    background-image: linear-gradient(to right, orange, tomato);
+    font-weight: 600;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 35px;
+    margin-top: 40px;
+    display: inline-block;
+
+}
+
+
+#recipie {
+    padding: 75px 0;
+}
+
+.recipie_header {
+    width: 550px;
+    margin: 7px auto;
+    text-align: center;
+}
+
+#recipie .recipie_header h2 {
+    font-size: 40px;
+    color: #707070;
+}
+
+#recipie .recipie_header {
+    color: #828282;
+
+}
+
+.recipie_flex {
+    display: flex;
+    padding-top: 50px;
+}
+
+.recipie_item {
+    width: 33%;
+    margin: 0 3%;
+    box-shadow: 0px 0px 30px -3px rgb(207 205 205);
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.recipie_item h3 {
+    font-size: 20px;
+}
+
+.recipie_item .recipie_img img {
+    width: 100%;
+}
+
+
+#soical_count {
+    margin: 5% 5%;
+    box-shadow: 0px 0px 30px -3px rgb(207 205 205);
+    padding: 10px 10px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.social_item {
+    width: 33%;
+    margin: 0 3%;
+    text-align: center;
+}
+
+.social_item p {
+    margin-top: -45px;
+    padding-bottom: 30px;
+}
+
+footer {
+    background-color: #000;
+    padding: 30px;
+    text-align: center;
+}
+
+footer span {
+    color: orange;
+}
+
+footer h2 {
+    color: rgb(161, 161, 161);
+    font-weight: 600;
+    font-size: 30px;
+}
+
+footer p {
+    color: rgb(161, 161, 161);
 }
